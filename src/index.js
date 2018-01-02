@@ -5,7 +5,12 @@ const pluginsList = [
   'cordova-plugin-geolocation',
   'cordova-plugin-contacts',
   'cordova-plugin-chrome-apps-sockets-tcp',
-  'cordova-plugin-sms'
+  'cordova-plugin-sms',
+  'cordova-plugin-alipay-v2',
+  'cordova-plugin-wechat',
+  'cordova-plugin-statusbar',
+  'phonegap-plugin-barcodescanner',
+  'phonegap-plugin-jpush',
 ]
 
 exports.install = (Vue, options) => {
